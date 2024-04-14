@@ -7,5 +7,6 @@ Fingerprint Matcher is a Python package that provides tools for fingerprint matc
 You can install Fingerprint Matcher using pip:
 
 ```bash
-pip install fingerprint-matcher
+pip install fingerprintMatcher
 
+# Fingerprint Matcher
