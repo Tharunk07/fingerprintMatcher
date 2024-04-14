@@ -22,7 +22,7 @@ To match two fingerprint images and check if they are similar, you can use the m
 from fingerprintmatcher import FingerprintMatcher
 
 # Create an instance of the FingerprintMatcher class
-fingerprint_matcher = FingerprintMatcher()
+fingerprint_matcher = fingerprintMatcher()
 
 # Match two fingerprint images
 fingerprint_matcher.match_fingerprints("path/to/image1", "path/to/image2")
@@ -37,7 +37,7 @@ To match a fingerprint image with a database of fingerprint images, you can use 
 from fingerprintmatcher import FingerprintMatcher
 
 # Create an instance of the FingerprintMatcher class
-fingerprint_matcher = FingerprintMatcher()
+fingerprint_matcher = fingerprintMatcher()
 
 # Match with a database
 fingerprint_matcher.match_with_database("path/to/test_image", "path/to/database_folder")
