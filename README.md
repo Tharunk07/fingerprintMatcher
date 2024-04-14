@@ -19,7 +19,7 @@ pip install fingerprintMatcher
 To match two fingerprint images and check if they are similar, you can use the match_fingerprints method:
 
 ```bash
-from fingerprintmatcher import FingerprintMatcher
+from fingerprintmatcher import fingerprintMatcher
 
 # Create an instance of the FingerprintMatcher class
 fingerprint_matcher = fingerprintMatcher()
@@ -34,7 +34,7 @@ Replace "path/to/image1" and "path/to/image2" with the file paths of the fingerp
 To match a fingerprint image with a database of fingerprint images, you can use the match_with_database method:
 
 ```bash
-from fingerprintmatcher import FingerprintMatcher
+from fingerprintmatcher import fingerprintMatcher
 
 # Create an instance of the FingerprintMatcher class
 fingerprint_matcher = fingerprintMatcher()
