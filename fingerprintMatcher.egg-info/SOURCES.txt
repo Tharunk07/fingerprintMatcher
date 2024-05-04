@@ -1,8 +1,0 @@
-README.md
-fingerprintmatcher.py
-setup.py
-fingerprintMatcher.egg-info/PKG-INFO
-fingerprintMatcher.egg-info/SOURCES.txt
-fingerprintMatcher.egg-info/dependency_links.txt
-fingerprintMatcher.egg-info/requires.txt
-fingerprintMatcher.egg-info/top_level.txt
