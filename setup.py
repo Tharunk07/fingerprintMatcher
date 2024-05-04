@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='fingerprintMatcher',
-    version='1.0.0',
+    version='1.0.6',
     author='Tharun K',
     author_email='tharunkkumarasamy@gmail.com',
     description='The FingerprintMatcher Python package provides a comprehensive toolkit for fingerprint matching and recognition tasks. With its intuitive interface and powerful functionality, this package enables users to compare fingerprint images, match them against a database of known fingerprints, and determine their similarity with high accuracy.',
@@ -20,5 +20,6 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent'
     ],
-    install_requires=['opencv-python'],
+    install_requires=['opencv-python>=4.9.0',
+                      'opencv-contrib-python']
 )
